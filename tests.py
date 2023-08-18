@@ -1,5 +1,6 @@
 import crawler
 
+
 urls = crawler.get_links_recursively(
     root_url="https://en.wikipedia.org/wiki/Coinbase",
     max_visited_pages=3,
